@@ -49,4 +49,4 @@ client.on('guildMemberAdd', member => {
 	
 	
 	
-client.login('NTQ0ODYwMTQyMjMyMTQxODI0.D0Wcdw.9ZkmvCNNsOOCCBPa8jpaWChnMRo');
+client.login(process.env.BOT_TOKEN);
