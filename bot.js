@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
@@ -41,12 +41,6 @@ client.on('guildMemberAdd', member => {
     if (!channel) return;
     channel.send({embed : embed});
     })
-	
-	
-	
-	
-	
-	
-	
-	
+
+
 client.login(process.env.BOT_TOKEN);
